@@ -1,0 +1,47 @@
+
+
+@media (max-width:992px){
+}
+
+
+@media (max-width:768px){
+  
+  #hero{
+    min-height: 100vh;
+  }
+
+  .inner_hero h2 {
+    font-size: 28px;
+    line-height: 36px;
+}
+
+.inner_hero h3 {
+  color: #eee;
+  margin: 15px 0 0 0;
+  font-size: 22px;
+}
+.inner_hero h3 {
+  font-size: 18px;
+  line-height: 24px
+}
+
+.footer_bottom{
+   text-align: center;
+}
+
+.footer_bottom div{
+  display: block;
+}
+}
+
+@media (min-width:1024px){
+  #hero{
+    background-attachment:fixed;
+  }
+}
+
+@media (min-width:1200px){
+  .question_area{
+    padding: 0 100px;
+  }
+}
